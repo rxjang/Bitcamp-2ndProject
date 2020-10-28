@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="containerw">
+   <div id="header">
+       <div class="grid2"><div class="logo">&nbsp;</div></div>
+       <div class="grid3">
+           <a href="main.bit"><img src="img/logo.png"/></a>
+       </div>
+       <div class="grid7">&nbsp;</div>
+    </div><!--header-->  

@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<div class="containerw">
+   <div id="header">
+       <div class="grid4"><div class="logo">&nbsp;</div></div>
+       <div class="grid4 logo">
+           <img src="img/lmslogo.png"/>
+       </div>
+       <div class="grid4">&nbsp;</div>
+    </div><!--header-->  

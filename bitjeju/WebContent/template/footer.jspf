@@ -1,0 +1,84 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+       </div>
+       <div class="grid2 sidebar">
+       <div id="signin">
+     
+     <c:choose>
+    	 <c:when test="${empty login}">
+     
+	       <form id="formlogin" action="login.bit" method="post">
+	           <span>비트캠프 로그인</span>
+	           <input type="text" id="emailid" name="emailid" placeholder=" 아이디">
+	           <input type="password" placeholder=" 비밀번호" id="pw" name="pw">
+	           <button id="login" type="submit">로그인</button>
+	           <button id="createaccount" type="button">회원가입</button>
+	           <button class="gotolms" type="button">LMS system</button>
+	 	  </form>
+	 	   <p><a href="accountfind.bit">아이디/비밀번호 찾기</a></p>
+  		</c:when>
+	    <c:when test="${not empty login}">
+
+	       <form id="formlogout"  action="logout.bit" method="post">
+	           <span>비트캠프 로그인</span>
+	         	<br/><br/>
+	           <label>&nbsp;</label>					           
+	           <label id="loginmsg">${login.name }님 환영합니다♡</label>
+	           <label>&nbsp;</label>					           
+	         	<br/><br/>
+	           <button id="logout" type="submit">로그아웃</button>
+	           <button id="mypage" type="button">내정보</button>
+	           <button id ="bitcampHome" class="gotolms" type="button">LMS system</button>
+	 	  </form>
+	    	
+	    
+  		</c:when>
+  	</c:choose>
+  
+  
+          
+       </div><!--signin-->
+       <div id="campus">
+        <p id="campustitle">
+	        <strong>비트캠프</strong> 대표문의
+        </p>
+        <table id="campusinfo">
+            <tr>
+                <th>서초본원</th>
+                <td>02.3486.9600</td>
+            </tr>
+            <tr>
+                <th>강남센터</th>
+                <td>02.3453.5404</td>
+            </tr>
+            <tr>
+                <th>신촌센터</th>
+                <td>02.707.1480</td>
+            </tr>
+            <tr>
+                <th>종로센터</th>
+                <td>02.722.1481</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="open">
+                   <br>
+                    <Strong>평일</Strong> AM 09:00 - PM 21:00<br/>
+                    <Strong>토/일/공휴일</Strong> AM 10:00 - PM 18:00
+                </td>
+            </tr>
+        </table>
+       </div><!--campus-->
+       </div><!--sidebar-->
+       <div class="grid2">&nbsp;</div>
+   </div><!--contents-->
+   <div id="footer" class="grid12">
+        <div id="footercon">
+           <img src="img/logo.png"/>
+           <p>
+            비트캠프 서울시 서초구 강남대로 459 (서초동, 백암빌딩)｜ 사업자등록번호 : 214-85-24928
+            (주)비트컴퓨터 서초본원 대표이사 : 조현정 / 문의 : 02-3486-9600 / 팩스 : 02-6007-1245<br>
+            통신판매업 신고번호 : 제 서초-00098호 / 개인정보보호관리책임자 : 최종진<br>
+            Copyright &copy; 비트캠프 All rights reserved.
+           </p>
+        </div><!--footercon-->
+   </div><!--footer-->
+</div><!--containerW-->

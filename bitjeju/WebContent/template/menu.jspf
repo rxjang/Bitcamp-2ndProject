@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<div id="menu">
+	<div class="grid3">&nbsp;</div>
+	<div class="grid6">
+		<ul>
+			<li id="bitcamp-menu"><a href="intro.bit">비트캠프</a>
+				<div id="bit-menu-sub1">
+					<ul>
+						<li><a href="#">학원소개</a></li>
+						<li><a href="#">연혁</a></li>
+						<li><a href="#">강사진소개</a></li>
+						<li><a href="#">오시는길</a></li>
+					</ul>
+				</div></li>
+			<li><a href="curriculum.bit">교육과정</a></li>
+			<li><a href="jobinfo.bit">취업지원</a></li>
+			<li id="customer-menu"><a href="customercenter.bit">고객센터</a>
+				<div id="cus-menu-sub1"><ul>
+					<li><a href="customercenter.bit">공지사항</a></li>
+					<li><a href="faq.bit">FAQ</a></li>
+				</ul></div></li>
+		</ul>
+	</div>
+	<div class="grid3">&nbsp;</div>
+</div>
+<!--menu-->
