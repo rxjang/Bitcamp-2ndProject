@@ -1,5 +1,5 @@
 # Bitcamp-2ndProject:LMS System
-:clipboard:164th Bitcamp 2nd project-LMS System :pencil2:
+:clipboard: 164th Bitcamp 2nd project-LMS System :pencil2:
 
 jsp/Servlet을 기반으로 한 비트캠프 제주점의 LMS System 웹사이트 입니다.
 
